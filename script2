@@ -1,0 +1,11 @@
+#!/bin/bash
+ACTION=${1:-launch}
+
+if [ -z "$1" ]
+	then
+		echo"No argu, by default action is: $ACTION"
+	else
+
+		echo "init $ action ."
+fi
+
